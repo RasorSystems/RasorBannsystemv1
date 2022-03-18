@@ -1,0 +1,14 @@
+name: RasorBannsystem
+author: GaaehHacked
+version: 1.0
+main: de.rasorsystems.Main
+commands:
+  maintenance:
+  ban:
+  unban:
+  check:
+  banlist:
+  mute:
+  unmute:
+  mutelist:
+  kick:

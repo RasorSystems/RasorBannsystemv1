@@ -1,0 +1,78 @@
+motd-1: "&8»&bRasorsystems &8● &7Your &9free system &7 &d1.8.x-1.16.2&8»"
+motd-2: "     &8»&9&lDeveloper &c&lapplication phase &8| &2&lOpen&8»"
+
+version: "1.8.x-1.16.2"
+max_player: 200
+motd-hover: "&bRasorSystems Your free Systems \n &5&lTwitter: @twitter\n &4&lYou&f&lTube: youtube \n &9&lTeamSpeak: teamspeake"
+
+maintenancestatus: false
+maintenanceotd-1: "&8»&bRasorsystems &8● &7Your &9free system &7 &d1.8.x-1.16.2&8»"
+maintenancemotd-2: "      &8»&9&lWe are currently in &c&lMaintenence!&8»"
+maintenenance-version: '&4&lMaintenance'
+
+prefix: "&f&lRasorSystems &8» "
+noperm: '&cYou dont hhave permission to do that!'
+isntonline: '&cThat player isnt online!'
+novalidId: '&cPlease use a valid ID!'
+
+#mysql
+host: ''
+port: 3365
+user: ''
+passwort: ''
+database: ''
+
+#messages
+checkusage: '&7Please use /check <player>'
+checkisban: 'Banned: %banned%'
+checkismute: 'Muted: %muted%'
+checkisbannedreason: '&eReason: %reason%'
+checkisbannedtime: '&eTime remaining: %weeks% weeks %days% %minutes% minutes %secounds% secounds'
+checkismutedreason: '&eReason: %reason%'
+checkismutedtime: 'Time remaining: %weeks% weeks %days% %minutes% minutes %secounds% secounds'
+check-1: '&8&m------------&8[&b&lRasorSystems&8]&8&m------------\n'
+
+maintenanceactivated: '&aYou have activated the maintenance mode!'
+maintenancedeactivated: '&aYou have activated the maintenance mode!'
+maintenancekick-1: '&8&m------------&8[&b&lRasorSystems&8]&8&m------------&r'
+maintenancekick: 'This server is currently in maintenance mode!'
+maintenanceusage: '&7Please use /maintenance <on:off>'
+
+kickplayer: '&cYou have kicked %player% for %reason%'
+kickusage: '&cPlease use /kick <player> <reason>!'
+kick: '&7You are kicked from this server!'
+kickreason: 'Reason: %reason%'
+kick-1: '&8&m------------&8[&b&lRasorSystems&8]&8&m------------'
+
+allreadymuted: '&cThat player is allready muted!'
+muteplayer: '&aYou have muted %player% for %reason% until %time%'
+permmuteplayer: '&aYou have muted %player% permanently for %reason%'
+mutelist-1: '&8&m------------&8[&b&lRasorSystems&8]&8&m------------'
+mutelist: '&7%player% - reason: %reason% - time remaining: %time%'
+noplayersmuted: '&cThere are no players muted at the moment!'
+mutelistusage: '&7Please use /mutelist'
+unmuteusage: '&7Please use /unmute <player>'
+notmuted: '&7That player isnt muted!'
+playerunmuted: '&7You have unmuted %player%'
+mute: '&7You are temporary muted!'
+permmute: '&7You are Permanenly muted!'
+mutechat: '&7You are temporary muted!'
+mutechattime: '&7Time remaining: %time%'
+permmutechat: '&7You are Permanenly muted!'
+unmuted: '&7You are now unmuted!'
+
+allreadybanned: '&cThat player is allready banned!'
+banlist-1: '&8&m------------&8[&b&lRasorSystems&8]&8&m------------'
+ban-1: '&8&m------------&8[&b&lRasorSystems&8]&8&m------------'
+banlist: '&7%player% - reason: %reason% - time remaining: %time%'
+noplayersbanned: '&cThere are no players banned at the moment!'
+banlistusage: '&7Please use /banlist'
+playerunbanned: '&7You have unbanned %player%'
+notbanned: '&7That player isnt banned!'
+unbanusage: '&7Please use /unban <player>'
+ban: '&cYou are Temporary banned from this network'
+banreason: '&cReason: %reason%'
+bantime: '&cRemaining time: %weeks% weeks %days% days %hours% hours %minutes% minutes %secounds% secounds'
+banend: '&cIf this ban is not correctrly send a ticket to www.myserver.com'
+banplayer: '&cYou have banned %player% for %reason%'
+permban: '&cYou are Permanently banned from this network'
