@@ -4,6 +4,7 @@ motd-2: "     &8»&9&lDeveloper &c&lapplication phase &8| &2&lOpen&8»"
 version: "1.8.x-1.16.2"
 max_player: 200
 motd-hover: "&bRasorSystems Your free Systems \n &5&lTwitter: @twitter\n &4&lYou&f&lTube: youtube \n &9&lTeamSpeak: teamspeake"
+usemotd: true
 
 maintenancestatus: false
 maintenanceotd-1: "&8»&bRasorsystems &8● &7Your &9free system &7 &d1.8.x-1.16.2&8»"
@@ -27,9 +28,9 @@ checkusage: '&7Please use /check <player>'
 checkisban: 'Banned: %banned%'
 checkismute: 'Muted: %muted%'
 checkisbannedreason: '&eReason: %reason%'
-checkisbannedtime: '&eTime remaining: %weeks% weeks %days% %minutes% minutes %secounds% secounds'
+checkisbannedtime: '&eTime remaining: %weeks% weeks %days% days %minutes% minutes %secounds% secounds'
 checkismutedreason: '&eReason: %reason%'
-checkismutedtime: 'Time remaining: %weeks% weeks %days% %minutes% minutes %secounds% secounds'
+checkismutedtime: 'Time remaining: %weeks% weeks %days% days %minutes% minutes %secounds% secounds'
 check-1: '&8&m------------&8[&b&lRasorSystems&8]&8&m------------\n'
 
 maintenanceactivated: '&aYou have activated the maintenance mode!'
@@ -76,3 +77,4 @@ bantime: '&cRemaining time: %weeks% weeks %days% days %hours% hours %minutes% mi
 banend: '&cIf this ban is not correctrly send a ticket to www.myserver.com'
 banplayer: '&cYou have banned %player% for %reason%'
 permban: '&cYou are Permanently banned from this network'
+ 
