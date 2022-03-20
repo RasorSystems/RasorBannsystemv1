@@ -40,6 +40,16 @@ public class Main extends Plugin
         catch (IOException e) {
             e.printStackTrace();
         }
+        try {
+            if(Licensesystem.checkLicense(getConfiguration().getString("licenskey")) == true){
+                ProxyServer.getInstance().getConsole().sendMessage("§aLicense valid. Thanks for using our product!");
+            }else{
+                ProxyServer.getInstance().getConsole().sendMessage("§cLicense not valid! shutdown");
+                ProxyServer.getInstance().stop();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         ProxyServer.getInstance().getPluginManager().registerListener((Plugin)this, (Listener)new ProxyPingListener(this));
         ProxyServer.getInstance().getPluginManager().registerListener((Plugin)this, (Listener)new ProxyPlayerJoinListener(this));
         ProxyServer.getInstance().getPluginManager().registerListener((Plugin)this, (Listener)new PlayerChatToProxy(this));

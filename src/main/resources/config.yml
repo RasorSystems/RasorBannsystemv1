@@ -23,6 +23,9 @@ user: ''
 passwort: ''
 database: ''
 
+#license
+licenskey: ''
+
 #messages
 checkusage: '&7Please use /check <player>'
 checkisban: 'Banned: %banned%'
